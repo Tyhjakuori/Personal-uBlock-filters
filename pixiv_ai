@@ -1,0 +1,10 @@
+! Filter AI made/assisted art from pixiv
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=NovelAI i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AI绘图 i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AI作画 i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AI作图 i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=StableDiffusion i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=NovelAIDiffusion i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=novelai i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=ai绘画 i])
+
