@@ -1,4 +1,8 @@
-! Filter AI made/assisted art from pixiv
+[uBlock Origin]
+! Description: Filter AI made/assisted art from pixiv
+
+! ---Image alt tags---
+! Generic AI tags
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="AI"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="Ai,"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=aiartwork i])
@@ -13,6 +17,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=aigeneratedar
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=aigenerated i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=generatedbyAI i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="computer_generated"])
+! Japanese tags
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AI作图 i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AI作画 i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AI画的 i])
@@ -40,6 +45,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AIのべり�
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AIアート i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AIお絵かき i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AIぺりすと i])
+! AI specific tags
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=dalle2 i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=inachiai i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=midjourney i])
@@ -72,7 +78,9 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=UniDream i])
 ! Notice having these tags on might cause false positives
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=人工知能 i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=ai少女 i])
-! User ids
+! ---Image alt tags END---
+!
+! ---User ids---
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/1000493"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/10221461"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/10261649"])
@@ -154,6 +162,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/17246152"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/17321274"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/1734525"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/17379859"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/17396536"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/17839097"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/17868311"])
@@ -190,6 +199,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/21043376"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/21052828"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/21162631"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/2120121"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/21367561"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/21385810"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/21585985"])
@@ -274,8 +284,10 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34316813"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34460228"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34486758"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34533496"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34736455"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34780267"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34833520"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/34969631"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/3558878"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/35617582"])
@@ -289,6 +301,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/36227092"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/36833343"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/36848550"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/36887544"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/37177649"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/37357773"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/37423911"])
@@ -483,7 +496,9 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/68216886"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/6829783"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/6847186"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/68682289"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/6871686"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/68756180"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/68918540"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/68933294"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/69010759"])
@@ -497,6 +512,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/69837502"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/6996668"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/70185977"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/7048880"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/7054354"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/70668167"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/70706094"])
@@ -650,6 +666,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/87168928"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/87176918"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/87179762"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/87180124"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/87180755"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/87191562"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/87208403"])
@@ -740,6 +757,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88074412"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88083288"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88086253"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88091263"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88092089"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88105303"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88112504"])
@@ -798,6 +816,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88811991"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88835229"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88849603"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88853316"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88862751"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88880012"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/88886677"])
@@ -871,9 +890,11 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89807480"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89829136"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89829447"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89841886"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89864136"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89871002"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89902703"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89906002"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89913723"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89922628"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/89967726"])
@@ -886,6 +907,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/90140342"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/90145932"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/90183420"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/90219112"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/90265661"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/90279822"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/90295137"])
@@ -896,6 +918,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/9272245"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/931368"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/9335107"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/933584"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/9428058"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/9449772"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/949495"])
@@ -904,3 +927,4 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="use
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/9723745"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/975632"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/9827601"])
+! ---User ids END---

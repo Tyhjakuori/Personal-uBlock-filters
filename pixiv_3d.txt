@@ -1,0 +1,23 @@
+[uBlock Origin]
+! Description: Filter 3D art from pixiv
+
+! ---Image alt tags---
+! Generic 3D tags
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="3D"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="3d"])
+! Japanese tags
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="コイカツ"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="コイカツ!"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=カスタムオーダーメイド3D2 i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="キャラ配布(コイカツ)"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=3Dカスタム少女 i])
+! 3D specific tags
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=3DCG i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=koikatsu i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=MMD i])
+! ---Image alt tags END---
+!
+! ---User ids---
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/11660441"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"]):-abp-has(a[href$="users/19183736"])
+! ---User ids END---
