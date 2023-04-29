@@ -3,8 +3,7 @@
 
 ! ---Image alt tags---
 ! Generic 3D tags
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="3D"])
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="3d"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="3D" i])
 ! Japanese tags
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="コイカツ"])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="コイカツ!"])
@@ -19,7 +18,7 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=koikatsu i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=MMD i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=honeyselect i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=honeyselect2 i])
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="HoneySelect2/HS2/AI少女/3DCG"])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="HoneySelect2/HS2/AI少女/3DCG" i])
 ! ---Image alt tags END---
 !
 ! ---User ids---
