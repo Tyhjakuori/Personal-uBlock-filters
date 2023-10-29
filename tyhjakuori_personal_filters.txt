@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 20230909v1
+! Version: 20231029v1
 ! Title: Tyhjakuori Personal Filters
 ! Description: Filter AI made/assisted (plus 3D made) art from pixiv
 ! Expires: 7 days
