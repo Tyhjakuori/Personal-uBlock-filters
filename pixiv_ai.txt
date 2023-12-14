@@ -3,8 +3,8 @@
 
 ! ---Image alt tags---
 ! Generic AI tags
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="AI" i])
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*="Ai," i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt~="AI" i])
+pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt~="Ai," i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=aiartwork i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AIdraw i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=AiArt i])
