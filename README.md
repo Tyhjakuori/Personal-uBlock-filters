@@ -2,10 +2,15 @@ Personal filter list for uBlock
 
 Direct URL to the list: https://raw.githubusercontent.com/Tyhjakuori/Personal-uBlock-filters/main/tyhjakuori_personal_filters.txt
    
-pixiv_ai.txt   
-Filter ai assisted/made art from pixiv
+pixiv_ai_tags.txt   
+Filter ai assisted/made art-tags from pixiv
    
-Direct URL to the pixix ai list: https://raw.githubusercontent.com/Tyhjakuori/Personal-uBlock-filters/main/pixiv_ai.txt
+Direct URL to the pixix ai tags list: https://raw.githubusercontent.com/Tyhjakuori/Personal-uBlock-filters/main/pixiv_ai_tags.txt
+   
+pixiv_ai_ids.txt   
+Filter ai assisted/made account ids from pixiv
+   
+Direct URL to the pixix ai tags list: https://raw.githubusercontent.com/Tyhjakuori/Personal-uBlock-filters/main/pixiv_ai_ids.txt
    
 pixiv_3d.txt   
 Filter 3D made art from pixiv
