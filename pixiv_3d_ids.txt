@@ -1,36 +1,36 @@
 [uBlock Origin]
 ! Title: Tyhjakuori Personal Filters
-! Version: 20240811v1
+! Version: 20250105v1
 ! Description: Filter 3D art from pixiv
 ! Homepage: https://github.com/Tyhjakuori/Personal-uBlock-filters
 
-! ---Image alt tags---
-! Generic 3D tags
-pixiv.net##img[alt~="3D" i]:upward(li)
-! Japanese tags
-pixiv.net##img[alt*="コイカツ"]:upward(li)
-pixiv.net##img[alt*="コイカツ!"]:upward(li)
-ixiv.net##img[alt*="コイカツサンシャイン"]:upward(li)
-pixiv.net##img[alt*="カスタムオーダーメイド 3D2" i]:upward(li)
-pixiv.net##img[alt*="キャラ配布(コイカツ)"]:upward(li)
-pixiv.net##img[alt*="3D カスタム少女" i]:upward(li)
-pixiv.net##img[alt*=ハニーセレクト i]:upward(li)
-pixiv.net##img[alt*="ハニーセレクト 2" i]:upward(li)
-pixiv.net##img[alt*=デッドオアアライブ i]:upward(li)
-! 3D specific tags
-pixiv.net##img[alt*="3DCG" i]:upward(li)
-pixiv.net##img[alt*=koikatsu i]:upward(li)
-pixiv.net##img[alt*=MMD i]:upward(li)
-pixiv.net##img[alt*=honeyselect i]:upward(li)
-pixiv.net##img[alt*=honeyselect2 i]:upward(li)
-pixiv.net##img[alt*="HoneySelect2/HS2/AI 少女/3DCG" i]:upward(li)
-pixiv.net##img[alt*=DOA i]:upward(li)
-pixiv.net##img[alt*=DOAXVV i]:upward(li)
-pixiv.net##img[alt*=dead_or_alive i]:upward(li)
-pixiv.net##img[alt*=blender i]:upward(li)
-! ---Image alt tags END---
-!
 ! ---User ids---
+pixiv.net##a[href$="users/100813587"]:upward(li)
+pixiv.net##a[href$="users/103153828"]:upward(li)
+pixiv.net##a[href$="users/103191160"]:upward(li)
+pixiv.net##a[href$="users/104444369"]:upward(li)
+pixiv.net##a[href$="users/107462890"]:upward(li)
+pixiv.net##a[href$="users/111717578"]:upward(li)
+pixiv.net##a[href$="users/15033741"]:upward(li)
+pixiv.net##a[href$="users/16136900"]:upward(li)
+pixiv.net##a[href$="users/24517992"]:upward(li)
+pixiv.net##a[href$="users/24597196"]:upward(li)
+pixiv.net##a[href$="users/24631466"]:upward(li)
+pixiv.net##a[href$="users/25123561"]:upward(li)
+pixiv.net##a[href$="users/31229409"]:upward(li)
+pixiv.net##a[href$="users/32674970"]:upward(li)
+pixiv.net##a[href$="users/3286441"]:upward(li)
+pixiv.net##a[href$="users/34030849"]:upward(li)
+pixiv.net##a[href$="users/4618283"]:upward(li)
+pixiv.net##a[href$="users/55125868"]:upward(li)
+pixiv.net##a[href$="users/55905721"]:upward(li)
+pixiv.net##a[href$="users/57786118"]:upward(li)
+pixiv.net##a[href$="users/67637837"]:upward(li)
+pixiv.net##a[href$="users/70287390"]:upward(li)
+pixiv.net##a[href$="users/84030781"]:upward(li)
+pixiv.net##a[href$="users/93509250"]:upward(li)
+pixiv.net##a[href$="users/96602367"]:upward(li)
+pixiv.net##a[href$="users/98896973"]:upward(li)
 pixiv.net##[href$="users/10016111"]:upward(li)
 pixiv.net##[href$="users/101542782"]:upward(li)
 pixiv.net##[href$="users/101795078"]:upward(li)

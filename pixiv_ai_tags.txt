@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Tyhjakuori Personal Filters
-! Version: 20240811v1
+! Version: 20250105v1
 ! Description: Filter AI made/assisted art tags from pixiv
 ! Homepage: https://github.com/Tyhjakuori/Personal-uBlock-filters
 
