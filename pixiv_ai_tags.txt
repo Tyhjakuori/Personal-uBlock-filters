@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Tyhjakuori Personal Filters
-! Version: 20250320v1
+! Version: 20250420v1
 ! Description: Filter AI made/assisted art tags from pixiv
 ! Homepage: https://github.com/Tyhjakuori/Personal-uBlock-filters
 
@@ -139,6 +139,8 @@ pixiv.net##img[alt*="AI 生成美女" i]:upward(li)
 pixiv.net##img[alt*="AI 融合" i]:upward(li)
 pixiv.net##img[alt*="AI 画王" i]:upward(li)
 pixiv.net##img[alt*="ai繪圖" i]:upward(li)
+pixiv.net##img[alt*="AIすくすく枢" i]:upward(li)
+pixiv.net##img[alt*="生成AI" i]:upward(li)
 ! AI specific tags
 pixiv.net##img[alt*=dalle2 i]:upward(li)
 pixiv.net##img[alt*=dalle3 i]:upward(li)
